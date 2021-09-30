@@ -14,7 +14,7 @@ If you run the project, you will see a main menu followed by a simple match-3 ga
 
 ---
 
-Open res://UI/Menu.gd. Create a new Sprite node and make it the first child of Menu. Use res://icon.png as the Texture, and set the scale = (4.5,8). It will look pretty ugly for now, but we will add a Shader to remedy that.
+Open res://UI/Menu.gd. Create a new Sprite node and make it the first child of Menu. Use res://icon.png as the Texture, turn off Sprite->Offset->Centered and set the scale = (4.5,8). It will look pretty ugly for now, but we will add a Shader to remedy that.
 
 Select the Sprite, and in the Inspector, CanvasItem->Material->Material->New Shader Material. Then edit the new Shader Material. Under ShaderMaterial->Shader = New Shader. Then go to [https://godotshaders.com/shader/clouds-in-motion/](https://godotshaders.com/shader/clouds-in-motion/) and copy the Shader code on that page. Paste it into the Shader Editor Panel.
 
