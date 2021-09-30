@@ -2,6 +2,8 @@
 
 Exercise for MSCH-C220, 30 September 2021
 
+A demonstration of this exercise is available at [https://youtu.be/Dv6KcsGRbGw](https://youtu.be/Dv6KcsGRbGw)
+
 This exercise will add shaders to our match-3 game. Shaders can require a lot of computing resources, so you will want to use them sparingly. They can make it possible to create unique effects that can lend polish and liveliness to your games.
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03d-Shaders. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
