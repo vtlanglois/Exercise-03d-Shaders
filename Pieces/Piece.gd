@@ -46,9 +46,8 @@ func die():
 	if Effects == null:
 		Effects = get_node_or_null("/root/Game/Effects")
 	if Effects != null:
-		$Dying.show()
 		get_parent().remove_child(self)
 		Effects.add_child(self)
-		var new_position = Vector2(position.x,VP.y + 100)
-		$Tween.interpolate_property(self, "position",position,new_position,randf()*2.0,Tween.TRANS_EXPO,Tween.EASE_IN,randf()*0.2)
+		var new_position = Vector2(target_position.x,VP.y + 100)
+		$Tween.interpolate_property(self, "position",target_position,new_position,randf()*2.0,Tween.TRANS_EXPO,Tween.EASE_IN,randf()*0.2)
 		$Tween.start()
